@@ -1,0 +1,7 @@
+services:
+   app:
+     build: .
+     container_name: basic_cont1
+     ports:
+       - "8081:80"
+     
